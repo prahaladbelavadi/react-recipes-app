@@ -7,7 +7,7 @@ function App() {
   const APP_ID = "1d76bf64";
   const APP_KEY = "95b14140b29e04325c2b2ab7b032493f";
 
-  const [recipes, setRecipes] = useState( useState( [{ recipe: { label: "Loading", image: null, calories: 'Loading', ingredients: null } }] ) );
+  const [recipes, setRecipes] = useState( [] );
   const [search, setSearch] = useState( '' );
   const [query, setQuery] = useState( 'Turkey' );
 
