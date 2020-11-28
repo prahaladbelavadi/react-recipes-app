@@ -49,8 +49,8 @@ function App() {
           // <Recipe title={recipe.recipe.label} calories={recipe.recipe.calories} image={recipe.recipe.image} key={recipe.recipe.id} />
           // <Recipe recipe={recipe.recipe} />
           // <Recipe title={recipe.recipe}/>
-          // <Recipe title={recipe.recipe.label} image={recipe.recipe.image} calories={recipe.recipe.calories} key={recipe.recipe.label} ingredients={recipe.recipe.ingredients} />
-          <Recipe />
+          <Recipe title={recipe.recipe.label} image={recipe.recipe.image} calories={recipe.recipe.calories} key={recipe.recipe.label} ingredients={recipe.recipe.ingredients} />
+          // <Recipe />
         )
         )}
 
